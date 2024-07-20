@@ -25,15 +25,18 @@
             <button onclick="appendNumber('0')">0</button>
             <button onclick="appendOperator('.')">.</button>
             <button onclick="appendOperator('/')">/</button>
-            <button onclick="appendFunction('sqrt(')">√</button>
-            <button onclick="appendFunction('Math.pow(', '2')">x²</button>
-            <button onclick="appendFunction('Math.pow(', '3')">x³</button>
-            <button onclick="appendFunction('Math.pow(', '')">x^y</button>
-            <button onclick="appendFunction('Math.sin(')">sin</button>
-            <button onclick="appendFunction('Math.cos(')">cos</button>
-            <button onclick="appendFunction('Math.tan(')">tan</button>
-            <button onclick="appendFunction('Math.log10(')">log</button>
+            <button onclick="appendFunction('sqrt')">√</button>
+            <button onclick="appendFunction('square')">x²</button>
+            <button onclick="appendFunction('cube')">x³</button>
+            <button onclick="appendFunction('power')">xʸ</button>
+            <button onclick="appendFunction('sin')">sin</button>
+            <button onclick="appendFunction('cos')">cos</button>
+            <button onclick="appendFunction('tan')">tan</button>
+            <button onclick="appendFunction('log')">log</button>
+            <button onclick="appendBracket('(')">(</button>
+            <button onclick="appendBracket(')')">)</button>
             <button class="clear" onclick="clearDisplay()">C</button>
+            <button class="backspace" onclick="backspace()">⌫</button>
             <button class="equals" onclick="calculateResult()">=</button>
         </div>
     </div>
